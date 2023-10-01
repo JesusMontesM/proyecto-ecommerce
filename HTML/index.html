@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mi tienda Releevant</title>
+    <title>Productos</title>
+    <link rel="stylesheet" href="../CSS/Style.css" />
   </head>
   <body>
     <header>
@@ -15,52 +16,71 @@
         id="buscador"
         placeholder="Buscar productos"
       />
-      <a href="carrito.html">Carrito <span>1</span></a>
+      <a href="carrito.html" class="btn">Carrito <span>1</span></a>
     </header>
     <nav>
       <ul>
-        <li><a href="productos.html">Todos los productos</a></li>
+        <li><a href="index.html">Todos los productos</a></li>
         <li><a href="nosotros.html">Sobre nosotros</a></li>
         <li><a href="contacto.html">Contacto</a></li>
         <li><a href="gadgets.html">Gadgets</a></li>
         <li><a href="ofertas.html">Ofertas</a></li>
       </ul>
+      <ul>
+        <li><a href="pedidos.html">Mis pedidos</a></li>
+        <li><a href="login.html">Logout</a></li>
+      </ul>
     </nav>
     <main>
-      <div>
-        <h3>Iniciar sesión</h3>
-        <p>Accede con tus datos personales</p>
-        <form>
-          <input type="email" name="email" id="email login" placeholder="Email" />
-          <input
-            type="password"
-            name="password"
-            id="password login"
-            placeholder="Contraseña"
-          />
-          <button type="submit">Iniciar sesión</button>
-        </form>
+      <h1>Gadgets</h1>
+      <p>Consigue los mejores productos de MyRelevant Store</p>
+      <div class="card">
+        <img src="images/1.jpg" alt="Tabaco" width="15%" />
+        <div>
+          <h4>Camel largo</h4>
+          <h4>5,15$</h4>
+        </div>
+        <div class="valoracion"><span class="m-color">★★★★</span>★</div>
+        <p>Consigue el mejor tabaco al mejor precio</p>
+        <div>
+          <a href="carrito.html">Añadir al carrito</a>
+          <a href="detalles.html">Detalles de productos</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/2.jpg" alt="Tabaco" width="15%" />
+        <div>
+          <h4>Ducado</h4>
+          <h4>4,15$</h4>
+        </div>
+        <div class="valoracion"><span class="m-color">★★★★</span>★</div>
+        <p>Consigue el mejor tabaco al mejor precio</p>
+        <div>
+          <a href="carrito.html">Añadir al carrito</a>
+          <a href="detalles.html">Detalles de productos</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/3.jpg" alt="Tabaco" width="15%" />
+        <div>
+          <h4>horizon</h4>
+          <h4>5$</h4>
+        </div>
+        <div class="valoracion"><span class="m-color">★★★★</span>★</div>
+        <p>Consigue el mejor tabaco al mejor precio</p>
+        <div>
+          <a href="carrito.html">Añadir al carrito</a>
+          <a href="detalles.html">Detalles de productos</a>
+        </div>
       </div>
       <div>
-        <h3>Regístrate</h3>
-        <p>Si todavía no tienes cuenta, ¿a que esperas? regístrate</p>
-        <form>
-          <input type="nombre" name="nombre" id="nombre" placeholder="Nombre" />
-          <input
-            type="apellidos"
-            name="apellidos"
-            id="apellidos"
-            placeholder="Apellidos"
-          />
-          <input type="email" name="email" id="email register" placeholder="Email" />
-          <input
-            type="password"
-            name="password"
-            id="password register"
-            placeholder="Contraseña"
-          />
-          <button type="submit">Crear cuenta</button>
-        </form>
+        <h3>Testimonios de clientes</h3>
+        <p>Consigue ahora los mejores productos de MyRelevant Store</p>
+        <a href="opiniones.html">Ver opiniones</a>
+      </div>
+      <div>
+        <p>El mejor tabaco de todos</p>
+        <p>Fumando Alonso</p>
       </div>
     </main>
     <section>
@@ -85,12 +105,13 @@
         <h6>Precios de mayorista</h6>
       </div>
     </section>
+
     <footer>
       <div>
         <img src="#" alt="logo " width="20%" />
         <h4>Mi tienda Releevant</h4>
         <div>
-          <ul>
+          <ul class="menu">
             <li><a href="ayuda.html">Centro de ayuda</a></li>
             <li><a href="servicios.html">Servicios al consumidor</a></li>
             <li><a href="escribenos.html">Escríbenos</a></li>
@@ -98,29 +119,40 @@
           </ul>
         </div>
         <div>
-            <ul>
-              <li><a href="privacidad.html">Política de privacidad</a></li>
-              <li><a href="condiciones.html">Condiciones de compra</a></li>
-              <li><a href="opiniones.html">Opiniones de clientes</a></li>
-              <li><a href="cookies.html">Aviso de privacidad y cookies</a></li>
-            </ul>
-          </div>
+          <ul class="menu">
+            <li><a href="privacidad.html">Política de privacidad</a></li>
+            <li><a href="condiciones.html">Condiciones de compra</a></li>
+            <li><a href="opiniones.html">Opiniones de clientes</a></li>
+            <li><a href="cookies.html">Aviso de privacidad y cookies</a></li>
+          </ul>
+        </div>
       </div>
       <div>
         <h4>Únete a nuestra newsletter y recibe ofertas diarias</h4>
         <div>
           <form>
-          <input type="email" name="email" id="email ofertas" placeholder="introduce tu email"/>
-          <button type="submit">Suscribirme</button>
-          <input type="checkbox" name="politica de privacidad" id="politica de privacidad" checked />Acepto la política de privacidad de esta web
-        </form>
+            <input
+              type="email"
+              name="email"
+              id="email ofertas"
+              placeholder="introduce tu email"
+            />
+            <button type="submit">Suscribirme</button>
+            <input
+              type="checkbox"
+              name="politica de privacidad"
+              id="politica de privacidad"
+              checked
+            />Acepto la política de privacidad de esta web
+          </form>
+        </div>
       </div>
       <div>
         <h4>Síguenos en redes</h4>
-        <a href="url"><img src="#" alt="Facebook" width="10%"></a>
-        <a href="url"><img src="#" alt="Youtube" width="10%"></a>
-        <a href="url"><img src="#" alt="Twitch" width="10%"></a>
-        <a href="url"><img src="#" alt="Instagram" width="10%"></a>
+        <a href="url"><img src="#" alt="Facebook" width="10%" /></a>
+        <a href="url"><img src="#" alt="Youtube" width="10%" /></a>
+        <a href="url"><img src="#" alt="Twitch" width="10%" /></a>
+        <a href="url"><img src="#" alt="Instagram" width="10%" /></a>
       </div>
     </footer>
   </body>
