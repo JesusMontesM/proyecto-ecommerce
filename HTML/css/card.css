@@ -1,2 +1,23 @@
 .valoracion {
-    color: #cacaca;}
+    color: #cacaca;
+}
+
+section .card {
+    border: 2px solid;
+}
+
+.product-text{
+    padding: 16px;
+}
+
+.card img{
+    max-width: 100%;
+}
+
+.card div{
+    margin: 16px;
+}
+
+span i {
+    margin: 0px 8 px;
+}

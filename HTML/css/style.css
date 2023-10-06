@@ -1,5 +1,7 @@
 body {
   color: #222;
+  font-family: inter;
+  font-size: 16px;
 }
 h1,
 h2,
@@ -48,7 +50,19 @@ h5 {
   font-size: 1.25rem;
 }
 
-small,
-.text_small {
+small, .text_small {
   font-size: 0.8rem;
+}
+
+nav li{
+  display: inline-block;
+}
+
+.box{
+  border: 2px solid crimson;
+  border-radius: 8px;
+}
+
+nav ul li{
+  margin: 0px 16px;
 }
