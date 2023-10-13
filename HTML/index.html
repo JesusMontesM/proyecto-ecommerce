@@ -19,40 +19,50 @@
     <!-- Mi estilo -->
     <link rel="stylesheet" href="../CSS/Style.css" />
     <link rel="stylesheet" href="../CSS/card.css" />
-    <link rel="stylesheet" href="../CSS/button.css"/>
+    <link rel="stylesheet" href="../CSS/button.css" />
   </head>
   <body>
     <header>
-      <img src="#" alt="logo " width="20%" />
-      <h4>Mi tienda Releevant</h4>
-      <input
-        type="search"
-        name="buscador"
-        id="buscador"
-        placeholder="Buscar productos"
-      />
-      <a href="carrito.html" class="btn" id="carrito"
-        ><i class="bi bi-cart"></i>Carrito <span>1</span></a
-      >
+      <div class="logo">
+        <img src="#" alt="logo " width="20%" />
+        <h4>Mi tienda Releevant</h4>
+      </div>
+      <div class="buscador">
+        <input
+          type="search"
+          name="buscador"
+          id="buscador"
+          placeholder="Buscar productos"
+        />
+      </div>
+      <div class="carrito">
+        <a href="carrito.html" class="btn" id="carrito"
+          ><i class="bi bi-cart"></i>Carrito <span>1</span></a
+        >
+      </div>
     </header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Todos los productos</a></li>
-        <li><a href="nosotros.html">Sobre nosotros</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-        <li><a href="gadgets.html">Gadgets</a></li>
-        <li><a href="ofertas.html">Ofertas</a></li>
-      </ul>
-      <ul>
-        <li><a href="pedidos.html">Mis pedidos</a></li>
-        <li><a href="login.html">Logout</a></li>
-      </ul>
-    </nav>
+    <div class="navegacion">
+      <nav>
+        <ul>
+          <li><a href="index.html">Todos los productos</a></li>
+          <li><a href="nosotros.html">Sobre nosotros</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="gadgets.html">Gadgets</a></li>
+          <li><a href="ofertas.html">Ofertas</a></li>
+        </ul>
+        <ul>
+          <li><a href="pedidos.html">Mis pedidos</a></li>
+          <li><a href="login.html">Logout</a></li>
+        </ul>
+      </nav>
+    </div>
     <main>
       <h1>Gadgets</h1>
       <p>Consigue los mejores productos de MyRelevant Store</p>
       <div class="card">
-        <img src="images/1.jpg" alt="Tabaco" width="15%" />
+        <div>
+          <img src="images/1.jpg" alt="Tabaco" width="15%" />
+        </div>
         <div>
           <h4>Camel largo</h4>
           <h4>5,15<i class="bi bi-currency-euro m-color"></i></h4>
@@ -65,7 +75,9 @@
         </div>
       </div>
       <div class="card">
-        <img src="images/2.jpg" alt="Tabaco" width="15%" />
+        <div>
+          <img src="images/2.jpg" alt="Tabaco" width="15%" />
+        </div>
         <div>
           <h4>Ducado</h4>
           <h4>4,15<i class="bi bi-currency-euro m-color"></i></h4>
@@ -78,7 +90,9 @@
         </div>
       </div>
       <div class="card">
-        <img src="images/3.jpg" alt="Tabaco" width="15%" />
+        <div>
+          <img src="images/3.jpg" alt="Tabaco" width="15%" />
+        </div>
         <div>
           <h4>horizon</h4>
           <h4>5<i class="bi bi-currency-euro m-color"></i></h4>

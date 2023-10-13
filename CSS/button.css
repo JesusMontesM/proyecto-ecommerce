@@ -11,13 +11,23 @@
 }
 #carrito span{
     position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 24px;
+    height: 24px;
+
+    border-radius: 50%;
+
+    font-size: 0.75rem;
+
+    background: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header a.btn{
     position: relative;
-}
-header span{
-    position: absolute;
-    top: 0;
-    right: 0;
 }
