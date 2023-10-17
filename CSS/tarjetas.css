@@ -1,0 +1,73 @@
+.card{
+    border-radius: 16px;
+    overflow: hidden;
+    background: white;
+}
+
+.card img{
+    max-width: 100%;
+}
+
+.card .contenido{ 
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.card .contenido .top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card h4,
+.card p{
+    margin: 0;
+}
+
+.card .valoracion{ 
+    color: #cacaca;
+}
+
+.card .valoracion .bi{
+    margin-right: 4px;
+}
+
+.card .contenido .actions{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.card .contenido .actions .carrito{
+    width: 100%;
+}
+.valoracion {
+    color: var(--gris);
+  }
+  
+  section .card {
+    border: 2px solid var(--primario);
+    overflow: hidden;
+    border-radius: 16px;
+  }
+  
+  .contenido {
+    padding: 24px;
+  }
+  
+  .card div {
+    margin: 16px;
+  }
+  
+  span i {
+    margin: 0px 8 px;
+  }
+  
+  .card {
+    border: 2px solid grey;
+  }
+
+  .contenido div, .contenido p{
+    margin-bottom: 24px;
+  }

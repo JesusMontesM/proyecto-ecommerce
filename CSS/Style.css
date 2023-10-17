@@ -90,3 +90,9 @@ nav {
   justify-content: space-between;
   flex-direction: row;
 }
+
+.wrap{
+  max-width: 1080px;
+  padding: 0 16px;
+  margin: 0 auto;
+}

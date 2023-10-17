@@ -26,3 +26,12 @@ span i {
 .card h4 {
   margin: 0;
 }
+.card {
+  border: 2px solid grey;
+}
+.valoracion .bi{
+  margin-right: 4px;
+}
+.contenido div, .contenido p{
+  margin-bottom: 24px;
+}
